@@ -1,0 +1,21 @@
+<div class="jumbotron">
+  <h3>Let's Play!</h3>
+
+  <div class= "row no-margin padding-0">
+    <ul class="col-xs-4  padding-0 game-border no-margin"  ng-repeat="number in main.numberList">
+        <ul class="col-xs-4 btn padding-0 num-border no-margin" ng-repeat="number in main.numberList">
+          {{number}}
+        </ul>
+    </ul>
+  </div>
+</div>
+
+
+<div id=listOfNumbers class="center container-fluid">
+  <ul class="col-xs-1 well white-background" ng-repeat="number in main.numberList">
+    {{number}}
+  </ul>
+</div>
+
+
+<!--  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p> -->
